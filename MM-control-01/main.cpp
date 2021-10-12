@@ -373,7 +373,9 @@ void manual_extruder_selector()
 void loop()
 {
     process_commands(uart_com);
-
+	
+    tmc2130_read_gstat();//VH
+	
     switch (state)
     {
     case S::Setup:
