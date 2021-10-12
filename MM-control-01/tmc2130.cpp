@@ -362,5 +362,10 @@ uint8_t tmc2130_read_gstat()
         tmc2130_rd(axis, TMC2130_REG_GSTAT, &result);
         if (result & 0x7) retval += (1 << axis);
     }
+    
+    Serial.print("TMC2130_REG_GSTAT: ");//VH 
+    Serial.print(retval, HEX);//VH
+    Serial.print("\n");//VH
+    
     return retval;
 }
