@@ -7,6 +7,7 @@
 #include <avr/pgmspace.h>
 #include "pins.h"
 #include "config.h"
+#include "Arduino.h" //VH
 
 #define TMC2130_CS_0 //signal d5  - PC6
 #define TMC2130_CS_1 //signal d6  - PD7
