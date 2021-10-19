@@ -1,6 +1,6 @@
 VH 2021-10-19: Added "read_serial_mmu.py" - script continuosly running on Raspberry Pi for logging status of MMU2S (status for GSTAT registers for TMC2130 stepper drivers)
 
-#3 Content from Original Prusa README.md :
+# Content from Original Prusa README.md :
 MMU 3-axis stepper control
 [![Build Status](https://api.travis-ci.org/prusa3d/MM-control-01.svg?branch=master)](https://api.travis-ci.org/prusa3d/MM-control-01.svg?branch=master)
 ## Table of contents
